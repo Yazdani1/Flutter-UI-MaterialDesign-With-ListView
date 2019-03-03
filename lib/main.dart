@@ -5,7 +5,7 @@ import 'package:flutter_imagelist/DesignWithDrawer.dart';
 void main(){
 
   runApp(new MaterialApp(
-    home: new Design()
+    home: new Home()
   ));
 
 }

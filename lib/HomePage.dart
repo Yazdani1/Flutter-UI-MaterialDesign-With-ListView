@@ -13,6 +13,26 @@ class _HomeState extends State<Home> {
       appBar: new AppBar(
         title: new Text("List View Horizontal"),
         backgroundColor: Colors.redAccent,
+        actions: <Widget>[
+
+          new IconButton(
+              icon: new Icon(Icons.search),
+              onPressed: ()=>debugPrint("Search")
+          ),
+          new IconButton(
+              icon: new Icon(Icons.add),
+              onPressed: ()=>debugPrint("add")
+          ),
+
+
+        ],
+      ),
+      drawer: new Drawer(
+        child: new ListView(
+          children: <Widget>[
+
+          ],
+        ),
       ),
 
       body: new ListView(
